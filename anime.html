@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website using html and css</title>
+    <link rel="stylesheet" href="anime.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Welcome To The Future
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+        <div class="text">
+            <h1>I am a <br> <span id="typing">Designer</span></h1>
+            <button  type="button" onclick="alert('Salary kitne doge ?')">Hire me</button>
+        </div>
+        <video autoplay loop> 
+            <source src="video.mp4" type="video/mp4"></video><source>
+        </video>
+    </header>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+    <script>
+        var typed = new Typed('#typing', {
+            strings: ["Designer.", "Developer.","Designer.","Youtuber."],
+            typeSpeed: 100,
+            backspeed: 100,
+            loop: true,
+          });
+          
+    </script>
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+        <div class="footerNav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Our Team</a></li>
+            </ul>
+
+        </div>
+        
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023; designed by <span class="Designer">Sachin Verma</span></p>
+
+        </div>
+    </footer>
+</body>
+</html>
